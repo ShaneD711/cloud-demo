@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:
+    driver-class-name:
+    username:
+    password:
+logging:
+  level:
+    mp: debug
+  pattern:
+    dateformat: HH:mm:ss # 时间格式
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
